@@ -3,7 +3,7 @@ const semver = require("semver");
 
 module.exports = main;
 
-async function main(pkgName="", engines=[]) {
+async function main(pkgName="@11ty/eleventy", engines=["ejs", "hamljs", "handlebars", "liquidjs", "nunjucks", "pug"]) {
   const packument = await pacote.packument(pkgName);
   const distTags = packument["dist-tags"];
 
