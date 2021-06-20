@@ -1,0 +1,25 @@
+{
+  "name": "11ty-engine-versions",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-engine-versions/issues"
+  },
+  "dependencies": {
+    "pacote": "^11.3.4",
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/11ty-engine-versions#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-engine-versions.git"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}
