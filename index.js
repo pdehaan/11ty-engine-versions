@@ -28,7 +28,7 @@ async function main(pkgName="@11ty/eleventy", engines=["ejs", "hamljs", "handleb
     for (const engine of engines) {
       const engineSemVer = pkg.dependencies[engine];
       const maxVer = await getMaxSatisfyingSemver(engine, engineSemVer);
-      obj.engines.push({engine, version: maxVer, semver: engineSemVer});
+      obj.engines.push({name: engine, version: maxVer, semver: engineSemVer});
     }
     res.push(obj);
   }
